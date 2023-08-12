@@ -1,35 +1,13 @@
-# General (Project currently on hold)
-### About
-Collects weather data using openweather api https://openweathermap.org/. 
-Will collect most of the data which is free to collect from there api. 
+Repository Name: WeatherApp
+Author: Sakshi (Student No: A00262877)
 
-# Issues
-- Issues with the tag might be added are up for question and might be added in the future
-- Issues with the tag enhancement will be added to the project
-- Issues with the tag bug are not working as intended
+Features:
 
-# Project progress
-- Console version Kanban board [here](https://github.com/users/Carpenteri1/projects/3) 
-- MVC Version Kanban board [here](https://github.com/Carpenteri1/WeatherApp/projects/4)
+Search Page:
+WeatherApp opens with a sleek and intuitive search page. Here, you can effortlessly enter the name of any city or location that piques your curiosity. I've designed the search functionality to be smooth and hassle-free, ensuring you get the weather details you need in an instant.
 
-## Console Version Supports
-- Show weather condition in a city
-- Show weather condition using lon and lat
-- Show weather condition for multiple cities
-- Weekly weather forecast 
-- Daily weather forecast 
+Detail Page:
+Once you've picked a location, WeatherApp's detail page takes you on a weather journey. You'll find a wealth of crucial information, including the current temperature, humidity levels, wind speed, and a succinct yet descriptive overview of the weather conditions. And that's not all – you can also explore forecasts for upcoming days, helping you plan your activities with confidence.
 
-## MVC Version Supports
-- Show weather condition in a city
-
-## Support that might be added
-- Weather Trigger Support
-- Database Support
-
-# Extra
-
-### Licens
-- Licens [here](https://github.com/Carpenteri1/WeatherApp/blob/master/LICENSE)
-
-### Download 
-- Console version [here](https://github.com/Carpenteri1/WeatherApp/releases/download/v1.0/Bin.zip) 
+OpenWeatherAPI Magic:
+I've seamlessly integrated the powerful OpenWeatherAPI to fetch accurate and up-to-date weather data. This integration guarantees that the information you receive is reliable and tailored to the location you're interested in.
