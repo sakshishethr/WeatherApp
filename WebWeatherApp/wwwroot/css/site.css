@@ -1,0 +1,112 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+@import url(https://fonts.googleapis.com/css?family=Ubuntu:400,700);
+
+
+/*Custom end*/
+a.navbar-brand {
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+ 
+}
+
+
+.center {
+    margin: auto;
+    width: 60%;
+    padding: 10px;
+}
+
+.span-div {
+    background-size: cover;
+    color: #fffeff !important;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin-bottom: -4.5vw;
+}
+
+.jumbotron {
+    display: flex;
+    background-image: url("../Content/Images/72126.jpg");
+    background-size: cover;
+    color: #fffeff !important;
+    text-align: left;
+    height: 28vw;
+    margin-bottom: -3.5vw;
+}
+
+.navbar-inverse {
+    background-color: #292a2c !important;
+    height:2.5vw !important;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.shadow {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+  border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-color: #fafaf9;
+}
+.footer {
+    position: absolute;
+    background-color: #292a2c;
+    bottom: 0;
+    width: 100%;
+    white-space: nowrap;
+    line-height: 60px; /* Vertically center the text there */
+}

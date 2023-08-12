@@ -1,0 +1,59 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - WebWeatherApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm  navbar-inverse bg-white border-bottom box-shadow">
+            @*<div class="container">
+                    <a class="navbar-brand" asp-area="" asp-controller="Weather" asp-action="Search">Search By City</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                </div>*@
+        </nav>
+    </header>
+    <div class="mw-100">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            <div class="row">
+                <div class="col-2" style="text-align:left;">
+                    <div class="row">
+                        <a href="https://github.com/Carpenteri1" class="d-block">
+                            <img src="https://www.flaticon.com/svg/vstatic/svg/2111/2111432.svg?token=exp=1611438684~hmac=3c301b0744669fae0ed77d99a967a96a" height="20" width="20" />
+                        </a>
+                        @*
+                            <a href="" class="d-block">
+                                <img src="https://www.flaticon.com/svg/vstatic/svg/174/174857.svg?token=exp=1611438577~hmac=e164a78987da3a63f62f8fa7d4bbe5c0" height="20" width="20" />
+                            </a>
+                        *@
+                    </div>
+                    <div class="row">
+
+                    </div>
+                    <div class="row"></div>
+                </div>
+                <div class="col-8">
+
+                </div>
+                <div class="col-2"></div>
+            </div>
+
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @RenderSection("Scripts", required: false)
+</body>
+</html>
